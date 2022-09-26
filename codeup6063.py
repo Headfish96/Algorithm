@@ -1,0 +1,6 @@
+a, b = input().split()
+a = int(a)
+b = int(b)
+c = (a if(a>=b) else b)
+# a가 b보다 크거나 같은 경우 c는 a이고, 그렇지 않은(a가 b보다 작을 경우) c는 b이다.)
+print(int(c))
