@@ -1,4 +1,4 @@
-import sys
+
 """
 n = int(sys.stdin.readline())
 data = [sys.stdin.readline().strip() for i in range(n)]
@@ -29,6 +29,7 @@ while True:
         break
     print(list)
 """
+import sys
 
 i = 0
 data = []
@@ -38,7 +39,7 @@ while True:
     if data[-1] == 'END':
         break
 #입력된 data 전부 출력
-
+#enumeratate 사용법 익히기 
 for i in range(len(data) - 1):
     data[i] = data[i][::-1]
 
