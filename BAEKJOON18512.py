@@ -11,7 +11,6 @@ for i in range(100):
         if a == b:
             s.append(a)
 
-
 if len(s) == 0:
     print('-1')
 else:

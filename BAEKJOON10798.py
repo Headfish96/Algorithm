@@ -24,3 +24,7 @@ for i in range(max(word_length)):
             rst = rst + word[j][i]
 
 print(rst)
+
+"""
+
+"""
