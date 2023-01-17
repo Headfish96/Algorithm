@@ -31,7 +31,7 @@ public class Daily_2024 {
 					int nr = r + deltas[i][0];
 					int nc = c + deltas[i][1];
 					if(nr>=0 && nr < n && nc >= 0 && nc < n) {
-						sum += map[nc][nr];
+						sum += map[nr][nc];
 					}
 				if(sum >= maxsum) {
 					maxsum = sum;
